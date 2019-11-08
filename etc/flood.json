@@ -1,0 +1,23 @@
+{
+	//处理模块
+	"processor": {
+		//服务端ip
+		"server_ip": "10.20.136.236",
+		//业务端口
+		"server_port": 8080,
+		//缓冲区最大长度
+		"queue_max_size": 1000
+	},
+	//任务模块
+	"taskmgr": {
+		//线程数量
+		"thread_num" : 0 
+	},
+	//C任务模块
+	"ctaskmgr": {
+		//服务端ip
+		"server_ip": "10.20.136.150",
+		//服务端端口
+		"server_port": 8081
+	}
+}
